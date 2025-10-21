@@ -19,7 +19,6 @@
         <style>
             video {
                 pointer-events: auto;
-                max-height: 75vh;
                 display: block;
                 border: 1px solid black;
             }
@@ -29,9 +28,21 @@
                 height: 0;
                 border: 1px solid black;
             }
-            img {
+            img, video {
                 max-width: 80vw;
-                max-height: 80vh;;
+                max-height: 80vh;
+            }
+            @media (max-width: 600px) {
+                body {
+                    font-size: 1.2em;
+                    line-height: 1.4;
+                }
+                .divider {
+                    width: 100%;
+                }
+                img, video {
+                    max-width: 100%;
+                }
             }
         </style>
         <script type='text/javascript' src='blank'></script>
@@ -73,8 +84,9 @@
         </video>
         <div class="divider"></div>
         <div>
-        hm93D is a shared studio at Herenmarkt 93D in Amsterdam hosting graphic designers, photographers and artists. We'll let you know if we're having a party or an event.
-        <br>
+        hm93D is a shared studio at Herenmarkt 93D in Amsterdam hosting graphic designers, photographers and artists.
+        <br> We'll let you know if we're having a party or an event.
+        <br><br>
         This website is used for <a href="https://www.dropbox.com/scl/fo/yxskwrd22yz5yq9mute1k/AD0D2MDD8qRRMLMH6Z1sMng?rlkey=dbv0u4hctxi4d8x6pt7ox9dv1&st=ejpqgnpo&dl=0">internal organization</a> and external hellos. 
         <div>
     </body>
